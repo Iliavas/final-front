@@ -1,15 +1,24 @@
 {
   "name": "final-front",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "fetch": "^1.1.0",
+    "getmac": "^5.17.0",
+    "http-proxy-middleware": "^1.0.6",
+    "macaddress": "^0.5.1",
+    "node-fetch": "^2.6.1",
+    "npm-fetch": "0.0.9",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-rating-stars-component": "^2.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "xmlhttprequest": "^1.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:7000"
 }
